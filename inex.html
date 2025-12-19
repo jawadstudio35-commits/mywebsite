@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jawad Resume</title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#eef1f6;
+}
+
+/* HEADER */
+header{
+  background:linear-gradient(135deg,#1a2434,#2e3f5f);
+  padding:50px 20px;
+  text-align:center;
+  color:#fff;
+}
+
+.profile{
+  width:140px;
+  height:140px;
+  margin:0 auto 15px;
+  border-radius:50%;
+  overflow:hidden;
+  border:4px solid #fff;
+}
+
+.profile img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+header h1{
+  font-size:2.5rem;
+}
+
+header p{
+  opacity:0.85;
+}
+
+/* MAIN */
+main{
+  width:90%;
+  max-width:1100px;
+  margin:40px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+
+.card{
+  background:#fff;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 20px 40px rgba(0,0,0,0.1);
+  transition:0.4s;
+  transform-style:preserve-3d;
+}
+
+.card:hover{
+  transform:translateY(-12px) rotateX(5deg);
+  box-shadow:0 30px 60px rgba(0,0,0,0.2);
+}
+
+.card h3{
+  margin-bottom:15px;
+  text-transform:uppercase;
+  font-size:1.1rem;
+  color:#1a2434;
+}
+
+.card p{
+  color:#555;
+  line-height:1.6;
+}
+
+
+.item{
+  background:#f2f4f8;
+  padding:10px;
+  margin-bottom:10px;
+  border-radius:8px;
+  font-weight:500;
+}
+
+footer{
+  background:#1a2434;
+  color:#c9c9c9;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+
+@media(max-width:600px){
+  header h1{
+    font-size:2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="profile">
+    <img src="./images/pic.jpeg" alt="Profile">
+  </div>
+  <h1>Jawad Haider</h1>
+  <p>Web Development | J 2.0</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h3>About Me</h3>
+    <p>
+      Hi! I’m just getting started with web development. I’m learning HTML & CSS
+      and enjoy building small creative websites to improve my skills.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Education</h3>
+    <div class="item">Bachelor of Science (IT)</div>
+    <div class="item">Higher Secondary</div>
+  </div>
+
+  <div class="card">
+    <h3>Skills</h3>
+    <div class="item">Frontend Development</div>
+    <div class="item">IT Speacialist</div>
+    <div class="item">Graphic Designer</div>
+  </div>
+
+  <div class="card">
+    <h3>Projects</h3>
+    <div class="item">Portfolio Website</div>
+    <div class="item">Landing Page</div>
+    <div class="item">Blog Layout</div>
+  </div>
+
+<div class="card">
+    <h3>Contact</h3>
+
+    <div class="item">
+        Email: 
+        <a href="mailto:jawadhaider1600@gmail.com">
+            jawadhaider1600@gmail.com
+        </a>
+    </div>
+
+    <div class="item">
+        LinkedIn: 
+        <a href="https://www.linkedin.com/in/linkedin.com/in/jawad-haider-16127a350" target="_blank">
+            View Profile
+        </a>
+    </div>
+
+    <div class="item">
+        Fiverr: 
+        <a href="https://www.fiverr.com/https://www.fiverr.com/s/xXx4pwD" target="_blank">
+            Viewprofile 
+        </a>
+    </div>
+</div>
+
+<div class="card">
+<h3>Certificates</h3>
+<div class=></div>
+<div class="Certificates">
+  <div class="item">Web Development: From SAU Tandojam</div>
+  <div class="item">Fiber Optic: From Nets International</div>
+  <div class="item">IT Speacialist" From Coursera GCC</div>
+  
+</div>
+
+
+</div>
+</main>
+
+<footer>
+    
+<p>This is a sample resume. Custom resumes can be designed on request</p>
+    
+ <p>© 2025 Jawad Haider. All Rights Reserved.
+     </p>
+
+</footer>
+
+</body>
+</html>
